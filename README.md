@@ -47,21 +47,22 @@
     SparkSession available as 'spark'.
     >>>
     ```
-  * Testando script `(spark)  heliezer@dev  ~/study/spark  python $PWD/spark_session.py`
-      ```
-      (spark)  heliezer@dev  ~/study/spark  python $PWD/spark_session.py
-      22/09/01 16:32:59 WARN Utils: Your hostname, dev resolves to a loopback address: 127.0.1.1; using 172.29.92.99 instead (on interface eth0)
-      22/09/01 16:32:59 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
-      Setting default log level to "WARN".
-      To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-        22/09/01 16:33:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-        +---------+----------+--------+----------+------+------+
-        |firstname|middlename|lastname|       dob|gender|salary|
-        +---------+----------+--------+----------+------+------+
-        |    James|          |   Smith|1991-04-01|     M|  3000|
-        |  Michael|      Rose|        |2000-05-19|     M|  4000|
-        |   Robert|          |Williams|1978-09-05|     M|  4000|
-        |    Maria|      Anne|   Jones|1967-12-01|     F|  4000|
-        |      Jen|      Mary|   Brown|1980-02-17|     F|    -1|
-        +---------+----------+--------+----------+------+------+
-      ```
+  
+* Testando script `(spark)  heliezer@dev  ~/study/spark  python $PWD/spark_session.py`
+    ```
+    (spark)  heliezer@dev  ~/study/spark  python $PWD/spark_session.py
+    22/09/01 16:32:59 WARN Utils: Your hostname, dev resolves to a loopback address: 127.0.1.1; using 172.29.92.99 instead (on interface eth0)
+    22/09/01 16:32:59 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+    Setting default log level to "WARN".
+    To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+    22/09/01 16:33:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+    +---------+----------+--------+----------+------+------+
+    |firstname|middlename|lastname|       dob|gender|salary|
+    +---------+----------+--------+----------+------+------+
+    |    James|          |   Smith|1991-04-01|     M|  3000|
+    |  Michael|      Rose|        |2000-05-19|     M|  4000|
+    |   Robert|          |Williams|1978-09-05|     M|  4000|
+    |    Maria|      Anne|   Jones|1967-12-01|     F|  4000|
+    |      Jen|      Mary|   Brown|1980-02-17|     F|    -1|
+    +---------+----------+--------+----------+------+------+
+    ```
